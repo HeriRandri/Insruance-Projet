@@ -3,7 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.logo{
+    background-color: blue;
+    height: 70px;
+    font-size: 40px;
+    color: white;
+    width: 200px;
+}
+
 .nav-item{
-    align-items: center;
-    
+    display: flex;
+    margin: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: rgb(77, 66, 53);
+}
+
+.style_1{
+    background-color: blue;
+    width: 320px;
+    height: 240px;
+    border-radius: 0 200px 200px 0;
+    position: relative;
+    margin-top: -190px;
+}
+
+.style_2{
+    background-color: blue;
+    width: 150px;
+    height: 300px;
+    border-radius:  200px 0 0 200px;
+    margin-left: 380px;
+    margin-top: -130px;
 }
