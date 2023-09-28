@@ -1,42 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.badge{
+    width: 100px;
+    height: 80px;
+    padding-top: 23px;
 }
 
-.logo{
-    background-color: blue;
-    height: 70px;
-    font-size: 40px;
-    color: white;
-    width: 200px;
-}
-
-.nav-item{
+.navbar-nav{
     display: flex;
-    margin: 25px;
-    font-size: 20px;
+    padding:20px;
+}
+
+ul li{
+        padding: 10px 20px;
+}
+.nav-link{
+    color: rgb(115, 98, 98);
     font-weight: bold;
 }
-
-.nav-link{
-    color: rgb(77, 66, 53);
+.header{
+    height: 70vh;
+    background-color: rgb(159, 128, 188);
 }
 
-.style_1{
-    background-color: blue;
-    width: 320px;
-    height: 240px;
-    border-radius: 0 200px 200px 0;
+.titre{
+    padding-top: 100px;
+}
+
+.contact1{
+    background-color: rgb(24, 9, 94);
+    height: 250px;
+
+}
+
+.form-control{
+    border-radius: 5px;
+    border: 1px solid rgb(16, 6, 62);
+    background-color: rgb(6, 6, 72);
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bg1{
+    background-color:rgb(4, 84, 176) ;
+    height: 200px;
+    width:300px ;
     position: relative;
-    margin-top: -190px;
+    bottom: 400px;
+    border-radius: 0 200px 200px 0;
 }
 
-.style_2{
-    background-color: blue;
-    width: 150px;
-    height: 300px;
-    border-radius:  200px 0 0 200px;
-    margin-left: 380px;
-    margin-top: -130px;
+.bg2{
+    background-color:white;
+    height: 200px;
+    width:300px ;
+    position: relative;
+    bottom: 400px;
+    border-radius: 0 200px 200px 0;
+}
+.bg3{
+    background-color:white ;
+    height: 400px;
+    width:200px ;
+    position: relative;
+    bottom: 730px;
+    border-radius: 200px 0 0 200px ;
+    left: 68px;
+}
+
+.bg4{
+    background-color:white;
+    height: 80px;
+    width:1200px ;
+    position: relative;
+    bottom: 840px;
+    border-radius: 0 200px 200px 0;
 }
